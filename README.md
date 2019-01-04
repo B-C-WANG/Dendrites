@@ -1,5 +1,10 @@
 # Dendrites
 ## Preview
+- Numpy in dendrites
+![](/doc_image/9.png)
+- Pandas in dendrites
+![](/doc_image/10.png)
+
 - Dendrites is a **visualized flow-based programming** tool for Python, it is **highly customizable** that every function in python can be made to a "Block" with input params as "Pin". It is very similar to the **"Blueprint" in Unreal Engine 4**. Extend basing on Persimmon([https://github.com/AlvarBer/Persimmon](https://github.com/AlvarBer/Persimmon))， dendrites is a very customizable tool for flow-based programming in Pyhon.   
 ![](/doc_image/1.png)
 - The function lib of dendrites, called **Dendrites_lib**, is highly customizable and can be imported to Dendrites as a block, e.g.:  
@@ -15,8 +20,7 @@
 ![](/doc_image/6.png)
 - Load and Save system  
 ![](/doc_image/7.png)
-- Numpy in dendrites
-![](/doc_image/9.png)
+
 ## How to get dendrites?
 - Dendrites will release as long as it finished. Keep Watching! Your star will encourage this project.
 
