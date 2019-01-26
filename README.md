@@ -1,10 +1,22 @@
 # Dendrites
+## Demo
+tutorial for IRIS dataset, final result:(一个使用鸢尾花数据集进行模型训练和预测的例子)
+![](/tutorial_iris/37.png)
+
+tutorials:详细教程请看:[https://github.com/B-C-WANG/Dendrites/blob/master/tutorial_iris.md](https://github.com/B-C-WANG/Dendrites/blob/master/tutorial_iris.md)
 ## Preview 预览
 - Numpy in dendrites 在dendrites中使用numpy进行矩阵操作
 ![](/doc_image/9.png)
 - Pandas in dendrites 在dendrites中使用pandas处理表格数据
 ![](/doc_image/10.png)
-
+## Develop Target 开发目标
+### Level1  
+A quick GUI interface for developers and users.作为python模块的快速GUI构建，无需任何GUI编程，代码直接构成流程的block，开发者能够迅速将代码封装为GUI，用户使用接近函数底层
+### Level2  
+Flow-based programming for special use, e.g. opencv, tensorflow for NN build, shader.作为流程式编程的专用软件，比如opencv图像处理，tensorflow用于神经网络构建，以及shader流程化处理等
+### Level3
+Language-independent flow-based IDE throught python(cython, jython, ...).作为跨语言流程式编程的GUI，使用cython,jython实现跨语言。
+### Detail
 - Dendrites is a **visualized flow-based programming** tool for Python, it is **highly customizable** that every function in python can be made to a "Block" with input params as "Pin". It is very similar to the **"Blueprint" in Unreal Engine 4**. Extend basing on Persimmon([https://github.com/AlvarBer/Persimmon](https://github.com/AlvarBer/Persimmon)).With lots of new function and supprting for numpy, pandas, ... dendrites is aimed to help build and test machine learning model ASAP.（dendrites是一个可视化的、基于流式编程的python工具，任何python函数可以作为运行图的一个节点Block，而函数输入输出是作为Block的pin。这种概念已经在很多领域中应用，比如Unreal游戏引擎中的“蓝图”系统。本软件基于Persimmon已有基础进行开发，做了大量的改进，并添加numpy，pandas，sklearn等支持用于构建一个快速机器学习模型评估的工具。）  
 ![](/doc_image/1.png)
 - The function lib of dendrites, called **Dendrites_lib**, is highly customizable and can be imported to Dendrites as a block, e.g.(任何一个函数可以写入dendrites的lib中，从而变为一个block使用):  
@@ -20,7 +32,4 @@
 ![](/doc_image/6.png)
 - Load and Save system (存储和读取Block)
 ![](/doc_image/7.png)
-
-## How to get dendrites? 如何获得dendrites？
-- Dendrites will release as long as it finished. Keep Watching! Your star will encourage this project.（dendrites正在开发中并会在完成时放出，请保持关注，你的star能够鼓励项目的进行）
 
