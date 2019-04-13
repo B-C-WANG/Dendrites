@@ -1,4 +1,5 @@
 # Dendrites
+- This repo is only for preview, no source code.项目暂未开源
 ## Demo
 tutorial for IRIS dataset, final result:(一个使用鸢尾花数据集进行模型训练和预测的例子)
 ![](/tutorial_iris/37.png)
